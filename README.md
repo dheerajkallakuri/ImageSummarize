@@ -31,19 +31,28 @@ The models are defined in the `model.py` file.
 ## Training
 
 To train the model, refer to the step-by-step instructions provided in the `ImageSummarize.ipynb` notebook. During training:
-- The model achieved approximately **40% accuracy** after several epochs.
+- The model achieved approximately **40-43% accuracy** for 5-10 epochs.
 - Both LSTM and GPT models showed similar performance in generating image captions.
 
 ## Training Results
 <table>
   <tr>
-    <th>LSTM Accuray</th>
-    <th>GPT-1 Accuray</th>
+    <th>LSTM Accuracy for 5 epochs</th>
+    <th>GPT-1 Accuracy for 5 epochs</th>
   </tr>
-  <t>
+  <tr>
     <td><img width="834" alt="lstm_output" src="https://github.com/user-attachments/assets/3f859dec-b5eb-4132-bbca-8780375307a0"></td>
     <td><img width="809" alt="gpt_output" src="https://github.com/user-attachments/assets/3da3bed3-bb56-4a7d-bc36-c13a6cdbe9bd"></td>
-  </t>
+  </tr>
+  <tr>
+    <th>LSTM Accuracy for 10 epochs</th>
+    <th>GPT-1 Accuracy for 10 epochs</th>
+  </tr>
+  <tr>
+    <td><img width="767" alt="lstm_10e" src="https://github.com/user-attachments/assets/675504ab-e471-47bc-892a-942bc6016973"></td>
+    <td><img width="739" alt="gpt1_10e" src="https://github.com/user-attachments/assets/46b10d94-eca1-44aa-bd7d-6684825a77eb">
+</td>
+  </tr>
 </table>
 
 ### Issues During Training
@@ -54,7 +63,7 @@ To train the model, refer to the step-by-step instructions provided in the `Imag
 
 ## Running the Image Summarizer App
 
-An **Image Summarizer Generator App** is provided to interactively generate captions for images. To run the app:
+An **Image Summarizer Generator App** is provided to generate captions for images interactively. To run the app:
 1. Navigate to the `app` folder.
 2. Run the `app.py` file using the command:
    ```
