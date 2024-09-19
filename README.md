@@ -12,6 +12,22 @@ This project takes an input image and generates a sentence summarizing the conte
   </tr>
 </table>
 
+### Output on Random Images
+
+<table>
+  <tr>
+    <th>LSTM Output</th>
+    <th>GPT-1 Output</th>
+  <tr>
+    <td><img width="500" height="500" alt="random image1 output on lstm model" src="https://github.com/user-attachments/assets/17ec1c0f-e784-4e06-8662-b61f5c9071eb"></td>
+    <td><img width="500" height="500" alt="random image1 output on gpt1 model" src="https://github.com/user-attachments/assets/0bd016b0-913a-46ca-b5ad-0cca2e297da9"></td>
+  </tr>
+  <tr>
+    <td><img width="500" height="500" alt="random image2 output on lstm model" src="https://github.com/user-attachments/assets/4e020ddc-0d57-4f2d-9098-4fccb49323b2"></td>
+    <td><img width="500" height="500" alt="random image2 output on gpt1 model" src="https://github.com/user-attachments/assets/d76436c7-5c6a-47bd-b030-2276208a543e"></td>
+  </tr>
+</table>
+
 ## Dataset
 
 The project utilizes the **Flickr30k** dataset from Kaggle. This dataset provides a rich set of images with corresponding captions, which are used for training and testing the model.
